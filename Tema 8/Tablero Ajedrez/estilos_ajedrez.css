@@ -1,5 +1,11 @@
+body{
+    background-image: url(./fotos/madera.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 h1{
     text-align: center;
+    color: white;
 }
 table{
     border: 20px groove brown;
@@ -10,11 +16,13 @@ table{
     background-color: beige;
     height: 100px;
     width: 100px;
+
 }
 .negra{
     background-color: peru;
     height: 100px;
     width: 100px;
+
 }
 .figura{
     height: 100px;
