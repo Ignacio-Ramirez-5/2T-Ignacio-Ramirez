@@ -1,0 +1,60 @@
+body {
+    background-image: url(./madera.webp);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+/* Tabla */
+table{
+    border: 20px groove brown;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blanca{
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+
+}
+.negra{
+    background-color: peru;
+    height: 100px;
+    width: 100px;
+
+}
+.figura{
+    height: 100px;
+    width: 100px;
+}
+
+/*Flex*/
+.flex{
+    border: 20px groove brown;
+    margin-left: 0;
+}
+.fila{
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+.blanca{
+    display: flex;
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.negra{
+    display: flex;
+    background-color: peru;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
