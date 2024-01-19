@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Ignacio Ramirez">
+    <link rel="stylesheet" href="estilos_overflow.css">
+    <title>Propiedad Overflow en CSS</title>
+</head>
+<body>
+    <header>
+        <h1>Ignacio Ramirez</h1>
+        <h2>Propiedad Overflow en CSS</h2>
+    </header>
+    
+    <section class="contenedor">
+        <article class="ejemplo">
+            <h3>Ejemplo 1: Valor Visible</h3>
+            <div class="caja visible">Este es el valor por defecto. El contenido que se desborda simplemente se muestra fuera del contenedor, sobresaliendo visualmente. </div>
+        </article>
+
+        <article class="ejemplo">
+            <h3>Ejemplo 2: Valor Hidden</h3>
+            <div class="caja hidden"> El contenido que se desborda está oculto y no es visible. Esto puede ser útil cuando no quieres que el contenido que sobresale sea visible.</div>
+        </article>
+
+        <article class="ejemplo">
+            <h3>Ejemplo 3: Valor Auto</h3>
+            <div class="caja auto">Se agrega una barra de desplazamiento al contenedor, permitiendo al usuario desplazarse para ver el contenido que está fuera de la vista.</div>
+        </article>
+
+        <article class="ejemplo">
+            <h3>Ejemplo 4: Valor Scroll</h3>
+            <div class="caja scroll">Similar a scroll, pero se agregarán barras de desplazamiento solo cuando sea necesario. Si el contenido se ajusta dentro del contenedor, no se mostrarán barras de desplazamiento.</div>
+        </article>
+    </section>
+</body>
+</html>
