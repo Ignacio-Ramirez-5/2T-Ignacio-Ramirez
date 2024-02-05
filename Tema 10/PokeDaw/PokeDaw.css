@@ -10,6 +10,20 @@ coleccion {
     flex-wrap: wrap;
     justify-content: space-around
 }
+titulo{
+    text-align: center;
+    color: aqua;
+    font-size: 400px;
+    font-family: cursive;
+
+}
+subtitulo{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    float: left;
+
+}
 pokemon{
         background-image: url(imagenes/pokeball.jpg);
         background-size: 375px;

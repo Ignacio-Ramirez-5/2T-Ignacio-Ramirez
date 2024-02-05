@@ -2,7 +2,9 @@
 <?xml-stylesheet type="text/css" href="PokeDaw.css"?>   
 
 <!DOCTYPE coleccion 
-[  <!ELEMENT coleccion (pokemon*)>
+[  <!ELEMENT coleccion (titulo, subtitulo, pokemon*)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT subtitulo (#PCDATA)>
     <!ELEMENT pokemon (nombre, imagen, numero_pokedex, descripcion, tipo, genero, estado)> 
     <!ELEMENT nombre (#PCDATA)>
     <!ELEMENT imagen (#PCDATA)>
@@ -20,9 +22,12 @@
    <!ATTLIST imagen foto CDATA #REQUIRED>
 ]>
 
+
 <coleccion>
 
+<titulo>PokeDaw</titulo>
 
+<subtitulo>Ignacio Ramírez</subtitulo>
 
     <pokemon carta="1">
         <nombre>SQUIRTLE</nombre>
