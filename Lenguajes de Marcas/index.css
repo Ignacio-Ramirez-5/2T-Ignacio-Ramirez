@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(to bottom, blue, lightgray); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    color: yellow;
+}
+hr{
+    width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
