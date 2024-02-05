@@ -65,7 +65,7 @@
         <nombre>BULBASUR</nombre>
         <imagen foto="bulbasur"></imagen>
         <numero_pokedex>#0001</numero_pokedex>
-        <descripcion>Es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los tres Pokémon iniciales. Destaca por ser el primer Pokémon de la Pokédex.
+        <descripcion>Es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los tres Pokémon iniciales.
         </descripcion>
         <tipo>Tipo: Planta / Veneno</tipo>
         <genero>Genero: Macho</genero>
@@ -258,7 +258,7 @@
         <tipo>Tipo: Panta</tipo>
         <genero>Genero: Macho</genero>
         <estado>
-        <habilidades>la habilidad principal "Espesura", que aumenta la precisión de sus movimientos. Su habilidad oculta es "Contraria", que invierte los aumentos y disminuciones de estadísticas durante el combate.</habilidades>
+        <habilidades>Su habilidad oculta es "Contraria", que invierte los aumentos y disminuciones de estadísticas durante el combate.</habilidades>
         <nivel>Nivel: 70</nivel>
         <fuerza>ataque: 161 defensa: 204 resistencia: 181</fuerza>
         <fase_de_evolucion>Tercera fase de la evolucion</fase_de_evolucion>
