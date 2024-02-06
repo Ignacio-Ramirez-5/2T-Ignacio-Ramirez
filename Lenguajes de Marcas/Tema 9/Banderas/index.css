@@ -21,7 +21,7 @@ h2 a{
     font-family: cursive;
     color: yellow;
     position: absolute;
-    bottom: 0;
+
     left: 50%;
     transform: translateX(-50%);
 }

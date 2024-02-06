@@ -1,18 +1,29 @@
 body{
-    background: linear-gradient(to bottom, blue, lightgray); 
+    background: linear-gradient(to bottom, aqua, lightcoral); 
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    text-shadow: 0 10px 15px black;
     
+}
+P{
+    text-align: center;
+    color: white;
+    font-size: 100px;
 }
 h1{
     text-align: center;
+    color: white;
 
 }
-h2{
+h2 {
     text-align: center;
     font-family: cursive;
     color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 hr{
     width: 1000px;
