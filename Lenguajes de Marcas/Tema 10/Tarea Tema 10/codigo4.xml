@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<correo>
+    <remitente>
+        <nombre>Pedro Martinez</nombre>
+        <email>pmartinez@gmail.com</email>
+    </remitente>
+    <destinatario>
+        <nombre>Gloria Ruiz</nombre>
+        <email>gruiz@gmail.com</email>
+    </destinatario>
+    <asunto>Envio de documentos</asunto>
+    <mensaje>
+        <parrafo>Hola Gloria</parrafo>
+        <parrafo>Te envio los documentos que me solicitastes el otro dia.</parrafo>
+        <parrafo>Por favor, revisalos y me comentas algo.</parrafo>
+        <parrafo>Un saludo.</parrafo>
+    </mensaje>
+</correo>
