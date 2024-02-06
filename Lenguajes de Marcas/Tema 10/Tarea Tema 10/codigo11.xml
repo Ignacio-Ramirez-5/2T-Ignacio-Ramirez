@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacursos 
+[ <!ELEMENT listacursos (curso+)>
+<!ELEMENT curso (profesor+, alumno+, contenido)>
+<!ATTLIST curso codigo CDATA #REQUIRED>
+<!ELEMENT profesor (dni, nombre, ap1, ap2?)>
+<!ELEMENT alumno (dni, nombre, ap1, ap2?)>
+<!ELEMENT contenido (descripcion, horas, creditos?)>
+
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ap1 (#PCDATA)>
+<!ELEMENT ap2 (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT horas (#PCDATA)>
+<!ELEMENT creditos (#PCDATA)> ]>
