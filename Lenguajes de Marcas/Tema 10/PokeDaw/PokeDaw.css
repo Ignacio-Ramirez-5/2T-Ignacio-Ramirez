@@ -4,7 +4,10 @@
     box-sizing: border-box; 
    }
 coleccion {
-    background-color: gray;
+    background-image: url(./imagenes/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -12,7 +15,7 @@ coleccion {
 }
 titulo{
     text-align: center;
-    color: aqua;
+    color: red;
     font-size: 400px;
     font-family: cursive;
 
@@ -20,7 +23,7 @@ titulo{
 subtitulo{
     text-align: center;
     font-size: 100px;
-    color: white;
+    color: green;
     float: left;
 
 }
@@ -34,13 +37,208 @@ pokemon{
         padding: 1vw;
         font-size: 1.2em;
         overflow: auto;
-        border: yellow 10px ;
-        border-style: outset;
-        border-top-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        border-top-right-radius: 1%;
-        border-bottom-left-radius: 1%;
       }
+
+pokemon[carta="1"]{
+    border: blue 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="2"]{
+    border: yellow 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="3"]{
+    border: green 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="4"]{
+    border: purple 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="5"]{
+    border: white 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="6"]{
+    border: grey 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="7"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="8"]{
+    border: pink 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="9"]{
+    border: burlywood 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="10"]{
+    border: burlywood 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="11"]{
+    border: blue 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="12"]{
+    border: goldenrod 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="13"]{
+    border: grey 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="14"]{
+    border: green 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="15"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="16"]{
+    border: goldenrod 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="17"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="18"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="19"]{
+    border: brown 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="20"]{
+    border: yellow 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="21"]{
+    border: blue 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="22"]{
+    border: white 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="23"]{
+    border: goldenrod 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="24"]{
+    border: grey 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="25"]{
+    border: yellow 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
 nombre{
     font-size: 2em;
     padding: .1em;

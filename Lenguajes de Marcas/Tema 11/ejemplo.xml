@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<?xml-model href="ejemplo.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<biblioteca>
+    <pelicula>
+        <titulo>Pelicula 1</titulo>
+        <descripcion>casa</descripcion>
+        <descripcion>aa</descripcion>
+        <anyo>2024</anyo>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Pelicula 2</titulo>
+        <descripcion>hola</descripcion>
+        <anyo>2021</anyo>
+    </pelicula>
+
+    <pelicula>
+        <titulo>Pelicula 3</titulo>
+        <descripcion>adios</descripcion>
+        <anyo>2012</anyo>
+    </pelicula>
+    
+    <pelicula>
+        <titulo>Pelicula 3</titulo>
+        <descripcion>arbol</descripcion>
+        <anyo>1995</anyo>
+    </pelicula>
+    
+    <pelicula>
+        <titulo>Pelicula 4</titulo>
+        <descripcion>sol</descripcion>
+        <anyo>2002</anyo>
+    </pelicula>
+</biblioteca>

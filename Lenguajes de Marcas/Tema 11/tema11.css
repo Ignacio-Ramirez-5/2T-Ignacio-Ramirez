@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom, aqua, lightcoral); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0 10px 15px black;
+    
+}
+P{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 1%;
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+h2 a{
+    text-align: center;
+    font-family: cursive;
+    color: yellow;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20%;
+}
+hr{
+    width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
