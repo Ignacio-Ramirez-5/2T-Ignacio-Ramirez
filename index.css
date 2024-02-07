@@ -24,7 +24,8 @@ h2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 40%;
+    margin-top: 45%;
+    margin-bottom: 0%;
 }
 hr{
     width: 1000px;
