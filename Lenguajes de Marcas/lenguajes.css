@@ -10,6 +10,7 @@ P{
     text-align: center;
     color: white;
     font-size: 100px;
+    margin-top: 0;
 }
 h1{
     text-align: center;
@@ -21,9 +22,9 @@ h2 a{
     font-family: cursive;
     color: yellow;
     position: absolute;
-    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 10%;
 }
 hr{
     width: 1000px;
