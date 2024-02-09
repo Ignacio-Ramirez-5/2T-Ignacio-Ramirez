@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="gimnasio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="socio" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" />
+                            <xs:element name="edad" type="xs:string" />
+                            <xs:element name="sexo" type="xs:string" />
+                            <xs:element name="email" type="xs:string" />
+                            <xs:element name="telefono" type="xs:string" />
+                            <xs:element name="direccion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="calle" type="xs:string" />
+                                        <xs:element name="ciudad" type="xs:string" />
+                                        <xs:element name="provincia" type="xs:string" />
+                                        <xs:element name="codigo_postal" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="fecha_inscripcion" type="xs:string" />
+                            <xs:element name="plan" minOccurs="0" type="xs:string" />
+                            <xs:element name="estado" type="xs:string" />
+                            <xs:element name="deporte" maxOccurs="unbounded" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="id" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
