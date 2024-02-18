@@ -1,92 +1,59 @@
-body{
-    background: linear-gradient(to bottom, aqua, lightcoral); 
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    text-shadow: 0px 10px 15px black;
+body {
+  background: linear-gradient(to bottom, aqua, lightcoral); 
+  background-size: 100% 100%;
+  text-shadow: 0px 10px 15px black;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
 }
-P{
-    text-align: center;
-    color: white;
-    font-size: 100px;
-    margin-top: 1%;
-}
-h1{
-    text-align: center;
-    color: white;
 
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
 }
-h2{
-    position: relative;
+
+h1 {
+  text-align: center;
+  color: white;
 }
+
+hr {
+  border: 1px solid black;
+}
+
 h2 a{
-    text-align: center;
-    font-family: cursive;
-    color: yellow;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-
-}
-hr{
-    width: 1000px;
-}
-a{
-    text-decoration: none;
-    color: white;
+  text-align: center;
+  margin-top: 20px;
+  color: yellow;
+  display: inline-block;
+  padding: 0 10px;
+  font-family: cursive;
+  text-decoration: none;
 }
 a:hover{
-    color: black;
+  color: black;
 }
 
+.targeta {
+  height: 300px;
+  background: linear-gradient(to top, aqua, lightcoral); 
+  background-size: 100% 100%;
+  border: 5px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+}
 
+.foto {
+  width: 100%;
+  height: auto;
+}
 
-.contenedor-tarjetas {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-  
-
-  .tarjeta {
-
-    background: linear-gradient(to top, aqua, lightcoral);
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 350px;
-    border: 5px solid;
-    border-color: white;
-    box-shadow: 10px 10px 10px 10px beige;
-    border-radius: 15px;
-    font-family: sans-serif;
-    margin-right: 5%;
-  }
-  
-  .titulo {
-    text-align: center;
-    font-size: 24px;
-    padding: 10px;
-  }
-  
-  .foto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .cuerpo {
-    padding: 10px;
-  }
-  
-
-  @media only screen and (min-width: 768px) {
-    .tarjeta {
-      width: 90%; 
-      max-width: 400px; 
-    }
-  }
-   
+.contenido {
+  padding: 10px;
+  text-align: center;
+}
