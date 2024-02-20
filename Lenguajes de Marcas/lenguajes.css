@@ -46,6 +46,11 @@ a:hover{
   border: 5px solid white;
   border-radius: 5px;
   overflow: hidden;
+  transition: transform 0.6s ease;
+}
+.targeta:hover {
+  transform: scale(0.9);
+  box-shadow: inset 10px 10px 5px 0px black;;
 }
 .foto {
   width: 100%;
