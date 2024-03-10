@@ -64,7 +64,6 @@ table{
     margin: auto;
     width: 800px;
     height: 800px;
-    border: 1px solid black;
   }
 
   .casilla {
@@ -136,4 +135,29 @@ table{
   .casilla8{
     left: 700px;
   }
-
+/* FLEX */
+.flex {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+  }
+  .flex-fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .flex-casilla {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    
+  }
+  .flex-blanca{
+      background-color: beige;
+  }
+  .flex-negra{
+      background-color: peru;
+  }
