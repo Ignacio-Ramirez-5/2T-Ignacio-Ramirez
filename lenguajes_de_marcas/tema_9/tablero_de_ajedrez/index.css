@@ -161,3 +161,27 @@ table{
   .flex-negra{
       background-color: peru;
   }
+
+  /* GRID*/
+  .grid {
+    display:grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    gap:0;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+  }
+  
+  .grid-casilla {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    
+  }
+  .grid-blanca{
+      background-color: beige;
+  }
+  .grid-negra{
+      background-color: peru;
+  }
