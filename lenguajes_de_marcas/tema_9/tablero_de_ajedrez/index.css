@@ -185,3 +185,32 @@ table{
   .grid-negra{
       background-color: peru;
   }
+  /* RESPONSIVE*/
+  .responsive {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    margin: auto;
+    width: 200vmin;
+    height: 200vmin;
+  }
+  .responsive-fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .responsive-casilla {
+    width: 10vmin;
+    height: 10vmin;
+    margin: 0px;
+    
+  }
+  .responsive-blanca{
+      background-color: beige;
+  }
+  .responsive-negra{
+      background-color: peru;
+  }
+  .responsive-figura{
+    width: 100%;
+  }
