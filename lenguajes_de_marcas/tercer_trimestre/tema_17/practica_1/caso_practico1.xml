@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Cableado</title>
+        <link>http://www.webmalagadesign.es/rss/cableado_sala.rss</link>
+        <description>Lista de material para realizar el cableado de la sala de informatica.</description>
+        <language>es</language>
+        <copyright>Federico Huercano Ruiz</copyright>
+        <pubDate>Tue, 18 Aug 2020 19:24:17 GMT</pubDate>
+        <lastBuildDate>Tue, 19 Aug 2020 20:35:00 GMT</lastBuildDate>
+        <category>Redea</category>
+        <image>
+            <url>http://www.webmalagadesign.es/rss/cableado.jpg</url>
+            <title>Cableado</title>
+            <link>http://wwww.webmalagadesign.es/rss/cableado.rss</link>
+            <description>Cableado de la sala de informatica</description>
+        </image>
+        <item>
+            <title>Conectores RJ45</title>
+            <description>Uno de los conectores principales utilizados con targetas de red Ethernet transmite informacion a traves de cables par trenzado.</description>
+            <enclosure url="http://www.webmalagadesign.es/rss/rj45.jpg" length="14383" type="image/jpg"/>
+            <guid isPernaLink="false">1</guid>
+            <pubDate>Tue, 19 Aug 2020 20:30:00 GMT</pubDate>
+            <link>http://wwww.webmalagadesign.es/proyectos.html</link>
+        </item>
+        <item>
+            <title>Cable (UTF) Categoria 5</title>
+            <description>Tipo de cableado mas solicitado. Es un estandar dentri de las comunicaciones de redes LAN</description>
+            <enclosure url="http://www.webmalagadesign.es/rss/urp.jpg" length="22345" type="image/jpeg" />
+            <guid isPernaLink="false">2</guid>
+            <pubDate>Tue, 19 Aug 2020 20:34:00 GMT</pubDate>
+            <link>http://webmalagadesign.es</link>
+        </item>
+        <item>
+            <title>Crimpadora</title>
+            <description>Nos permite cortar los cables, y crimpar los terminales RJ45.</description>
+            <enclosure url="http://www.webmalagadesign.es/rss/crimpadora.jpg" length="22345" type="image/jpeg" />
+            <guid isPernaLink="false">3</guid>
+            <pubDate>Tue, 10 Aug 2020 20:35:00 GMT</pubDate>
+            <link>http://www.webmalagadesign.es</link>
+        </item>
+    </channel>
+</rss>
+
