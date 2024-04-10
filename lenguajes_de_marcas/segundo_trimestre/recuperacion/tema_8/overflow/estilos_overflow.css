@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.contenedor {
+    width: 1300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.ejemplo {
+    margin-bottom: 30px;
+}
+
+.caja {
+    width: 300px;
+    height: 50px;
+    border: 1px solid #333;
+    overflow: auto;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.visible {
+    overflow: visible;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.auto {
+    overflow: auto;
+}
+
+.scroll {
+    overflow: scroll;
+}
+

@@ -1,0 +1,464 @@
+*{
+    margin: 0px; 
+    display:block;
+    box-sizing: border-box; 
+   }
+coleccion {
+    background-image: url(./imagenes/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+titulo{
+    text-align: center;
+    color: red;
+    font-size: 400px;
+    font-family: cursive;
+
+}
+subtitulo{
+    text-align: center;
+    font-size: 100px;
+    color: green;
+    float: left;
+
+}
+pokemon{
+        background-image: url(imagenes/pokeball.jpg);
+        background-size: 375px;
+        background-position: center;
+        width: 375px;
+        height: 525px;
+        margin: 2vw;
+        padding: 1vw;
+        font-size: 1.2em;
+        overflow: auto;
+      }
+
+pokemon[carta="1"]{
+    border: blue 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="2"]{
+    border: yellow 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="3"]{
+    border: green 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="4"]{
+    border: purple 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="5"]{
+    border: white 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="6"]{
+    border: grey 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="7"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="8"]{
+    border: pink 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="9"]{
+    border: burlywood 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="10"]{
+    border: burlywood 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="11"]{
+    border: blue 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="12"]{
+    border: goldenrod 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="13"]{
+    border: grey 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="14"]{
+    border: green 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="15"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="16"]{
+    border: goldenrod 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="17"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="18"]{
+    border: red 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="19"]{
+    border: brown 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="20"]{
+    border: yellow 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="21"]{
+    border: blue 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="22"]{
+    border: white 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="23"]{
+    border: goldenrod 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="24"]{
+    border: grey 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+pokemon[carta="25"]{
+    border: yellow 10px ;
+    border-style: outset;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+}
+nombre{
+    font-size: 2em;
+    padding: .1em;
+    text-align: center;
+    background-color: white;
+    color: blue;
+    border-radius: 100% 100% 100% 0;
+}
+numero_pokedex{
+    color: red;
+    float: right;
+}
+descripcion{
+    font-weight: 100;
+    font-size: .8em;
+    margin: .5em;
+    color: white;
+}
+tipo{
+    background-color: black;
+    color: yellow;
+}
+genero{
+    background-color: black;
+    color: yellow;
+}
+habilidades{
+    float: left;
+    color: #333333;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5%;
+
+}
+nivel{
+    float: right;
+    color: green;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+fuerza{
+    float: left;
+    color: white;
+}
+fase_de_evolucion{
+    float: left;
+    color: white;
+}
+puntos_de_vida{
+    float: left;
+    color: white;
+}
+imagen{
+    width: 150px;
+    height:200px;
+    float: left;
+    margin: 10px;
+    margin-top: 0%;
+    margin-left: 0%;
+    border: solid black 1px;
+    border-radius: 0 20% 20% 20%;
+
+}
+imagen[foto="squirtle"]{
+    background-image: url("imagenes/squirtle.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightblue;
+
+}
+imagen[foto="pikachu"]{
+    background-image: url("imagenes/pikachu.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightyellow;
+}
+imagen[foto="bulbasur"]{
+    background-image: url("imagenes/bulbasur.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightgreen;
+}
+imagen[foto="umbreon"]{
+    background-image: url("imagenes/umbreon.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightgray;
+}
+imagen[foto="pidgeotto"]{
+    background-image: url("imagenes/pidgeotto.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightpink;
+}
+imagen[foto="lucario"]{
+    background-image: url("imagenes/lucario.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightcyan;
+}
+imagen[foto="charizard"]{
+    background-image: url("imagenes/charizard.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightsalmon;
+}
+imagen[foto="gengar"]{
+    background-image: url("imagenes/gengar.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightslategray;
+}
+imagen[foto="snorlax"]{
+    background-image: url("imagenes/snorlax.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightskyblue;
+}
+imagen[foto="eevee"]{
+    background-image: url("imagenes/eevee.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightgoldenrodyellow;
+}
+imagen[foto="piplup"]{
+    background-image: url("imagenes/piplup.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightblue;
+}
+imagen[foto="mewtwo"]{
+    background-image: url("imagenes/mewtwo.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightpink;
+}
+imagen[foto="sawk"]{
+    background-image: url("imagenes/sawk.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightgray;
+}
+imagen[foto="serperior"]{
+    background-image: url("imagenes/serperior.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightseagreen;
+}
+imagen[foto="pyroar"]{
+    background-image: url("imagenes/pyroar.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightsalmon;
+}
+imagen[foto="solgaleo"]{
+    background-image: url("imagenes/solgaleo.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightgrey;
+}
+imagen[foto="torracat"]{
+    background-image: url("imagenes/torracat.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightsalmon;
+}
+imagen[foto="charmander"]{
+    background-image: url("imagenes/charmander.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightsalmon;
+}
+imagen[foto="geodude"]{
+    background-image: url("imagenes/geodude.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightgray;
+}
+imagen[foto="voltorb"]{
+    background-image: url("imagenes/voltorb.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightpink;
+}
+imagen[foto="gyrados"]{
+    background-image: url("imagenes/gyrados.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightcyan;
+}
+imagen[foto="scyther"]{
+    background-image: url("imagenes/scyther.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightgreen;
+}
+imagen[foto="meowth"]{
+    background-image: url("imagenes/meowth.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightyellow;
+}
+imagen[foto="throh"]{
+    background-image: url("imagenes/throh.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightcoral;
+}
+imagen[foto="pichu"]{
+    background-image: url("imagenes/pichu.png");
+    background-size: cover;
+    background-position: center;
+    background-color: lightyellow;
+}
+@media screen and (max-width: 600px) {
+    coleccion {
+        flex-direction: column;
+    }
+
+    pokemon {
+        width: 90%; 
+    }
+}

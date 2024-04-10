@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
+<?xml-stylesheet type="text/css" href="PokeDaw.css"?>   
+
+<!DOCTYPE coleccion 
+[  <!ELEMENT coleccion (titulo, subtitulo, pokemon*)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT subtitulo (#PCDATA)>
+    <!ELEMENT pokemon (nombre, imagen, numero_pokedex, descripcion, tipo, genero, estado)> 
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT imagen (#PCDATA)>
+    <!ELEMENT numero_pokedex (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT tipo (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT estado (habilidades, nivel, fuerza, fase_de_evolucion, puntos_de_vida)>
+     <!ELEMENT habilidades (#PCDATA)>
+     <!ELEMENT nivel (#PCDATA)>
+     <!ELEMENT fuerza (#PCDATA)>
+     <!ELEMENT fase_de_evolucion (#PCDATA)>
+     <!ELEMENT puntos_de_vida (#PCDATA)>
+    <!ATTLIST pokemon carta CDATA #REQUIRED>
+   <!ATTLIST imagen foto CDATA #REQUIRED>
+]>
+
+
+<coleccion>
+
+<titulo>PokeDaw</titulo>
+
+<subtitulo>Ignacio Ramírez</subtitulo>
+
+    <pokemon carta="1">
+        <nombre>SQUIRTLE</nombre>
+        <imagen foto="squirtle"></imagen>
+        <numero_pokedex>#0007</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo agua introducido en la primera generación. Es uno de los tres Pokémon iniciales, junto a Bulbasaur y Charmander.
+        </descripcion>
+        <tipo>Tipo: Agua</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>habilidades acuáticas y defensa mediante su caparazón resistente.</habilidades>
+        <nivel>Nivel: 10</nivel>
+        <fuerza>ataque: 94 defensa: 121 
+        resistencia: 127</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 54,820</puntos_de_vida>
+        </estado>
+        
+    </pokemon>
+
+    <pokemon carta="2">
+        <nombre>PIKACHU</nombre>
+        <imagen foto="pikachu"></imagen>
+        <numero_pokedex>#0025</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo eléctrico introducido en la primera generación. Es el Pokémon más conocido de la historia. Es la evolución de Pichu.
+        </descripcion>
+        <tipo>Tipo: Electrico</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>habilidades eléctricas, destacando su icónico ataque "Rayo".</habilidades>
+        <nivel>Nivel: 250</nivel>
+        <fuerza>ataque: 112 defensa: 96 resistencia: 111 </fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 13,986,600</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+    <pokemon carta="3">
+        <nombre>BULBASUR</nombre>
+        <imagen foto="bulbasur"></imagen>
+        <numero_pokedex>#0001</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo planta/veneno introducido en la primera generación. Es uno de los tres Pokémon iniciales.
+        </descripcion>
+        <tipo>Tipo: Planta / Veneno</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>habilidades de tipo planta y veneno, utilizando ataques como "Látigo Cepa" y "Rayo Solar".</habilidades>
+        <nivel>Nivel: 13</nivel>
+        <fuerza>ataque: 118 defensa: 111 resistencia: 128</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 29,694</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+    <pokemon carta="4">
+        <nombre>UMBREON</nombre>
+        <imagen foto="umbreon"></imagen>
+        <numero_pokedex>#0197</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo siniestro introducido en la segunda generación. Es una de las ocho Eeveeluciones, es decir, las posibles evoluciones de Eevee.
+        </descripcion>
+        <tipo>Tipo: Siniestro</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>Umbreon destaca por sus habilidades defensivas con su tipo Siniestro y su gran resistencia.</habilidades>
+        <nivel>Nivel: 7</nivel>
+        <fuerza>ataque: 126 defensa: 240 resistencia: 216</fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 17.422</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+    <pokemon carta="5">
+        <nombre>PIDGEOTTO</nombre>
+        <imagen foto="pidgeotto"></imagen>
+        <numero_pokedex>#0017</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo normal/volador introducido en la primera generación. Es la evolución de Pidgey.</descripcion>
+        <tipo>Tipo: Normal / Volador</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>Las habilidades de Pidgeotto incluyen vuelo ágil y visión aguda, utilizadas para cazar presas.</habilidades>
+        <nivel>Nivel: 20</nivel>
+        <fuerza>ataque: 117 defensa: 105 resistencia: 160</fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 270.608</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+    <pokemon carta="6">
+        <nombre>LUCARIO</nombre>
+        <imagen foto="lucario"></imagen>
+        <numero_pokedex>#0448</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo lucha/acero introducido en la cuarta generación. Es la evolución de Riolu. </descripcion>
+        <tipo>Tipo: Lucha / Acero</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>habilidades como "Adaptabilidad" que refuerza sus ataques del mismo tipo, y "Vista Lince" que le permite percibir las auras de los seres vivos.</habilidades>
+        <nivel>Nivel: 170</nivel>
+        <fuerza>ataque: 236 defensa: 144 resistencia: 172</fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 2.300.252</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="7">
+        <nombre>CHARIZARD</nombre>
+        <imagen foto="charizard"></imagen>
+        <numero_pokedex>#0006</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo fuego/volador introducido en la primera generación. Es la evolución de Charmeleon.</descripcion>
+        <tipo>Tipo: Fuego / Volador</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>habilidades como "Poder Solar" que incrementa su ataque especial bajo la luz del sol y "Inmunidad" que lo protege de cambios en su estado.</habilidades>
+        <nivel>Nivel: 40</nivel>
+        <fuerza>ataque: 223 defensa: 173 resistencia: 186</fuerza>
+        <fase_de_evolucion>Tercera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.201.733</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="8">
+        <nombre>GENGAR</nombre>
+        <imagen foto="gengar"></imagen>
+        <numero_pokedex>#0094</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo fantasma/veneno introducido en la primera generación. Es la evolución de Haunter.</descripcion>
+        <tipo>Tipo: Fantasma / Veneno</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>habilidades como "Levitación" que le otorga inmunidad a los movimientos de tipo tierra y "Cuerpo Maldito" que inflige daño a cualquier Pokémon que lo toque físicamente.</habilidades>
+        <nivel>Nivel: 50</nivel>
+        <fuerza>ataque: 261 defensa: 149 resistencia: 155</fuerza>
+        <fase_de_evolucion>Tercera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.422.984</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="9">
+        <nombre>SNORLAX</nombre>
+        <imagen foto="snorlax"></imagen>
+        <numero_pokedex>#0143</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo normal introducido en la primera generación. A partir de la cuarta generación, es la evolución de Munchlax.</descripcion>
+        <tipo>Tipo: Normal</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>habilidades como "Inmunidad" que lo protege contra el estado de envenenamiento y "Intimidación" que reduce el ataque del oponente al entrar en combate.</habilidades>
+        <nivel>Nivel: 180</nivel>
+        <fuerza>ataque: 190 defensa: 169 resistencia: 330</fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 2.859.458</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="10">
+        <nombre>EEVEE</nombre>
+        <imagen foto="eevee"></imagen>
+        <numero_pokedex>#0133</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo normal introducido en la primera generación. Se caracteriza por ser el Pokémon con más evoluciones posibles, con ocho.</descripcion>
+        <tipo>Tipo: Normal</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>habilidades versátiles y puede evolucionar en varias formas, cada una con habilidades únicas, como Vaporeon, Jolteon, Flareon, Espeon, Umbreon, Leafeon, Glaceon o Sylveon.</habilidades>
+        <nivel>Nivel: 30</nivel>
+        <fuerza>ataque: 104 defensa: 114 resistencia: 146</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 349.073</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="11">
+        <nombre>PIPLUP</nombre>
+        <imagen foto="piplup"></imagen>
+        <numero_pokedex>#0393</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo agua introducido en la cuarta generación. Es uno de los tres Pokémon iniciales, junto a Turtwig y Chimchar.</descripcion>
+        <tipo>Tipo: Agua</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>habilidades de tipo Agua, incluyen Torrente como su habilidad principal, y Cáscara gruesa como habilidad oculta, que reduce el daño de movimientos críticos.</habilidades>
+        <nivel>Nivel: 15</nivel>
+        <fuerza>ataque: 112 defensa: 102 resistencia: 142</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 255.653</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="12">
+        <nombre>MEWTWO</nombre>
+        <imagen foto="mewtwo"></imagen>
+        <numero_pokedex>#0150</numero_pokedex>
+        <descripcion>Es un Pokémon legendario y artificial de tipo psíquico introducido en la primera generación. Fue creado por el doctor Fuji a partir del ADN de Mew.</descripcion>
+        <tipo>Tipo: Psiquico</tipo>
+        <genero>Genero: No Tiene</genero>
+        <estado>
+        <habilidades>habilidad principal "Presión", que hace que el oponente use más puntos de poder al atacar. Su habilidad oculta es "Muro Místico", que refleja los movimientos de estado del oponente.</habilidades>
+        <nivel>Nivel: 45</nivel>
+        <fuerza>ataque: 300 defensa: 182 resistencia: 214</fuerza>
+        <fase_de_evolucion>No tiene evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.886.529</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="13">
+        <nombre>SAWK</nombre>
+        <imagen foto="sawk"></imagen>
+        <numero_pokedex>#0539</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo lucha introducido en la quinta generación.</descripcion>
+        <tipo>Tipo: Lucha</tipo>
+        <genero>Genero: Macho (Unico)</genero>
+        <estado>
+        <habilidades>suele tener la habilidad "Intrépido", que aumenta su estadística de Velocidad cuando sufre una disminución de una estadística.</habilidades>
+        <nivel>Nivel: 35</nivel>
+        <fuerza>ataque: 231 defensa: 153 resistencia: 181</fuerza>
+        <fase_de_evolucion>No tiene evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.080.250</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="14">
+        <nombre>SERPERIOR</nombre>
+        <imagen foto="serperior"></imagen>
+        <numero_pokedex>#0497</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo planta introducido en la quinta generación. Es la evolución de Servine.</descripcion>
+        <tipo>Tipo: Panta</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>Su habilidad oculta es "Contraria", que invierte los aumentos y disminuciones de estadísticas durante el combate.</habilidades>
+        <nivel>Nivel: 70</nivel>
+        <fuerza>ataque: 161 defensa: 204 resistencia: 181</fuerza>
+        <fase_de_evolucion>Tercera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.157.467</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="15">
+        <nombre>PYROAR</nombre>
+        <imagen foto="pyroar"></imagen>
+        <numero_pokedex>#0668</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo fuego/normal introducido en la sexta generación. Es la evolución de Litleo.</descripcion>
+        <tipo>Tipo: Fuego / Normal</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>las habilidades "Rivalidad" como su habilidad principal, que aumenta el poder de sus movimientos cuando enfrenta a un Pokémon del mismo género.</habilidades>
+        <nivel>Nivel: 80</nivel>
+        <fuerza>ataque: 221 defensa: 149 resistencia: 200</fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 16.208.357</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="16">
+        <nombre>SOLGALEO</nombre>
+        <imagen foto="solgaleo"></imagen>
+        <numero_pokedex>#0791</numero_pokedex>
+        <descripcion>Es un Pokémon legendario introducido en la séptima generación. Es una de las dos posibles evoluciones de Cosmoem junto a Lunala.</descripcion>
+        <tipo>Tipo: Psiquico / Acero</tipo>
+        <genero>Genero: No tiene</genero>
+        <estado>
+        <habilidades>Las habilidades de Solgaleo son "Metal Body" y "Full Metal Body".</habilidades>
+        <nivel>Nivel: 55</nivel>
+        <fuerza>ataque: 255 defensa: 191 resistencia: 264</fuerza>
+        <fase_de_evolucion>Tercera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 5.929.561</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="17">
+        <nombre>TORRACAT</nombre>
+        <imagen foto="torracat"></imagen>
+        <numero_pokedex>#0726</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo fuego introducido en la séptima generación. Es la evolución de Litten.</descripcion>
+        <tipo>Tipo: Fuego</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>Las habilidades de Torracat incluyen fuerza física, agilidad, capacidad para controlar y generar fuego, así como habilidades de combate cuerpo a cuerpo.</habilidades>
+        <nivel>Nivel: 25</nivel>
+        <fuerza>ataque: 174 defensa: 103 resistencia: 163</fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 776.923</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="18">
+        <nombre>CHARMANDER</nombre>
+        <imagen foto="charmander"></imagen>
+        <numero_pokedex>#0004</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo fuego introducido en la primera generación. Es uno de los tres Pokémon iniciales, junto a Bulbasaur y Squirtle.</descripcion>
+        <tipo>Tipo: Fuego</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>Las habilidades de Charmander incluyen aliento de fuego, agilidad y capacidad para aprender movimientos de tipo fuego.</habilidades>
+        <nivel>Nivel: 5</nivel>
+        <fuerza>ataque: 116 defensa: 93 resistencia: 118</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 280.036</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="19">
+        <nombre>GEODUDE</nombre>
+        <imagen foto="geodude"></imagen>
+        <numero_pokedex>#0074</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo roca/tierra introducido en la primera generación. Es la forma habitual del Geodude de Alola.</descripcion>
+        <tipo>Tipo: Roca / Tierra</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>Las habilidades de Geodude incluyen resistencia física, habilidades de tipo roca y tierra, así como la capacidad de aprender movimientos de ambos tipos.</habilidades>
+        <nivel>Nivel: 20</nivel>
+        <fuerza>ataque: 132 defensa: 132 resistencia: 120</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 541.428</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="20">
+        <nombre>VOLTORB</nombre>
+        <imagen foto="voltorb"></imagen>
+        <numero_pokedex>#0100</numero_pokedex>
+        <descripcion>Es un Pokémon artificial de tipo eléctrico introducido en la primera generación.</descripcion>
+        <tipo>Tipo: Electrico</tipo>
+        <genero>Genero: No tiene</genero>
+        <estado>
+        <habilidades>Las habilidades de Voltorb incluyen velocidad, capacidad para generar electricidad y aprender movimientos de tipo eléctrico en combate.</habilidades>
+        <nivel>Nivel: 25</nivel>
+        <fuerza>ataque: 109 defensa: 111 resistencia: 120</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 433.506</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="21">
+        <nombre>GYRADOS</nombre>
+        <imagen foto="gyrados"></imagen>
+        <numero_pokedex>#0130</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo agua/volador introducido en la primera generación. Es la evolución de Magikarp.</descripcion>
+        <tipo>Tipo: Agua / Volador</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>Las habilidades de Gyarados incluyen fuerza física abrumadora, velocidad en el agua y habilidades de tipo Agua y Volador en combate.</habilidades>
+        <nivel>Nivel: 45</nivel>
+        <fuerza>ataque: 237 defensa: 186 resistencia: 216</fuerza>
+        <fase_de_evolucion>Segunda fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.896.123</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="22">
+        <nombre>SCYTHER</nombre>
+        <imagen foto="scyther"></imagen>
+        <numero_pokedex>#0123</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo bicho/volador introducido en la primera generación.</descripcion>
+        <tipo>Tipo: Bicho / Volador</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>Las habilidades de Scyther incluyen velocidad extrema, agilidad sobresaliente y habilidades de combate cuerpo a cuerpo utilizando sus afiladas cuchillas.</habilidades>
+        <nivel>Nivel: 15</nivel>
+        <fuerza>ataque: 218 defensa: 170 resistencia: 172</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.130.576</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="23">
+        <nombre>MEOWTH</nombre>
+        <imagen foto="meowth"></imagen>
+        <numero_pokedex>#0052</numero_pokedex>
+        <descripcion>Es un Pokémon de tipo normal introducido en la primera generación. A partir de la séptima generación posee una forma regional de tipo siniestro.</descripcion>
+        <tipo>Tipo: Normal</tipo>
+        <genero>Genero: Macho</genero>
+        <estado>
+        <habilidades>Las habilidades de Meowth incluyen agilidad felina, destreza en movimientos ágiles y capacidad para aprender movimientos de tipo normal en combate.</habilidades>
+        <nivel>Nivel: 20</nivel>
+        <fuerza>ataque: 92 defensa: 78 resistencia: 120</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 290.078</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="24">
+        <nombre>THROH</nombre>
+        <imagen foto="throh"></imagen>
+        <numero_pokedex>#0538</numero_pokedex>
+        <descripcion>Es un Pokémon tipo lucha introducido en la quinta generación.</descripcion>
+        <tipo>Tipo: Lucha</tipo>
+        <genero>Genero: Macho (Unico)</genero>
+        <estado>
+        <habilidades>Las habilidades de Throh incluyen una gran fuerza física, resistencia excepcional y habilidades en técnicas de combate cuerpo a cuerpo, especialmente en el arte del judo.</habilidades>
+        <nivel>Nivel: 35</nivel>
+        <fuerza>ataque: 172 defensa: 160 resistencia: 260</fuerza>
+        <fase_de_evolucion>No tiene evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 1.314.994</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+        <pokemon carta="25">
+        <nombre>PICHU</nombre>
+        <imagen foto="pichu"></imagen>
+        <numero_pokedex>#0172</numero_pokedex>
+        <descripcion>Es un Pokémon bebé de tipo eléctrico introducido en la segunda generación. Es la preevolución de Pikachu.</descripcion>
+        <tipo>Tipo: Electrico</tipo>
+        <genero>Genero: Hembra</genero>
+        <estado>
+        <habilidades>Las habilidades de Pichu incluyen la generación de electricidad, agilidad en movimientos rápidos y la capacidad de aprender movimientos de tipo eléctrico en combate.</habilidades>
+        <nivel>Nivel: 100</nivel>
+        <fuerza>ataque: 77 defensa: 53 resistencia: 85</fuerza>
+        <fase_de_evolucion>Primera fase de la evolucion</fase_de_evolucion>
+        <puntos_de_vida>Puntos de vida: 251.866</puntos_de_vida>
+        </estado>
+
+    </pokemon>
+
+
+    
+</coleccion>

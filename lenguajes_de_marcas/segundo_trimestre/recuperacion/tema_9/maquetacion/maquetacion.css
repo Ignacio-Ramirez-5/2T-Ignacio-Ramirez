@@ -1,0 +1,64 @@
+body{
+  background-color: lightgray;
+  text-align: center;
+  margin: 0;
+}
+
+table,td{
+  border: solid rgb(77, 58, 35);
+  border-collapse: collapse;
+  vertical-align: top;
+}
+
+table{
+  width: 100%;
+}
+
+/*PARTE IZQUIERDA*/
+#left{
+  width: 15%;
+  padding-top: 19.92px;
+}
+
+#left>div{
+  width: 90%;
+  background-color: rgb(180, 120, 8);
+  margin: auto;
+  border: solid black;
+  margin-bottom: 5px;
+
+}
+
+
+/*PARTE CENTRAL*/
+#center{
+  width: 65%;
+}
+
+#principal{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#principal>div{
+  border: solid black;
+  margin: 15px;
+  width: 275px;
+  height: 200px;
+  background-color: rgb(180, 120, 8);
+}
+
+
+/*PARTE DERECHA*/
+#right{
+  width: 20%;
+}
+#right>div{
+  background-color: rgb(180, 120, 8);
+  width: 95%;
+  margin: auto;
+  border: solid black;
+  margin-bottom: 5px;
+  height: 80px;
+}

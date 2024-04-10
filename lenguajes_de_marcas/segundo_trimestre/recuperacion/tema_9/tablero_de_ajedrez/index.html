@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Ignacio Ramirez" content="Tableros de Ajedrez">
+    <link rel="stylesheet" href="./index.css">
+    <title>Tableros de Ajedrez</title>
+</head>
+<body>
+
+    <h1>
+        Tema 9 Tableros de Ajedrez
+    </h1>
+
+    <h1>
+        Ignacio Ramirez
+    </h1>
+
+
+
+    <h2>TABLA</h2>
+    <div class="Tabla">
+        <table>
+            <tr>
+                <th class="blanca"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></th>
+                <th class="negra"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></th>
+                <th class="blanca"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></th>
+                <th class="negra"><img class="figura" src="./fotos/reina-negra.png" alt="Reina Negra"></th>
+                <th class="blanca"><img class="figura" src="./fotos/rey-negro.png" alt="Rey Negro"></th>
+                <th class="negra"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></th>
+                <th class="blanca"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></th>
+                <th class="negra"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></th>
+            </tr>
+
+            <tr>
+                <th class="negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+                <th class="blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+                <th class="negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+                <th class="blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+                <th class="negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+                <th class="blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+                <th class="negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+                <th class="blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></th>
+            </tr>
+
+            <tr>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+            </tr>
+
+            <tr>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+            </tr>
+
+            <tr>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+            </tr>
+
+            <tr>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+                <th class="negra"></th>
+                <th class="blanca"></th>
+            </tr>
+
+            <tr>
+                <th class="blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+                <th class="negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+                <th class="blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+                <th class="negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+                <th class="blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+                <th class="negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+                <th class="blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+                <th class="negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></th>
+            </tr>
+            <tr>
+                <th class="negra"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></th>
+                <th class="blanca"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></th>
+                <th class="negra"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></th>
+                <th class="blanca"><img class="figura" src="./fotos/reina-blanca.png" alt="Reina Blanca"></th>
+                <th class="negra"><img class="figura" src="./fotos/rey-blanco.png" alt="Rey Blanco"></th>
+                <th class="blanca"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></th>
+                <th class="negra"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></th>
+                <th class="blanca"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></th>
+            </tr>
+        </table>
+    </div>
+
+
+    <h2>FLUID</h2>
+    <div class="fluid">
+        <div class="fluid-fila">
+            <div class="fluid-blanca"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/reina-negra.png" alt="Reina Negra"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/rey-negro.png" alt="Rey Negro"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+        </div>
+
+        <div class="fluid-fila">
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        </div>
+
+        <div class="fluid-fila">
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+        </div>
+
+        <div class="fluid-fila">
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+        </div>
+
+        <div class="fluid-fila">
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+        </div>
+
+        <div class="fluid-fila">
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+            <div class="fluid-negra"></div>
+            <div class="fluid-blanca"></div>
+        </div>
+
+        <div class="fluid-fila">
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        </div>
+
+        <div class="fluid-fila">
+            <div class="fluid-negra"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/reina-blanca.png" alt="Reina Blanca"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/rey-blanco.png" alt="Rey Blanco"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+            <div class="fluid-negra"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+            <div class="fluid-blanca"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+        </div>
+        
+    </div>
+
+    <h2>FIXED</h2>
+    <div class="fixed">
+      <div class="fixed-negra fila1 casilla1"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+      <div class="fixed-blanca fila1 casilla2"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="fixed-negra fila1 casilla3"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="fixed-blanca fila1 casilla4"><img class="figura" src="./fotos/reina-negra.png" alt="Reina Negra"></div>
+      <div class="fixed-negra fila1 casilla5"><img class="figura" src="./fotos/rey-negro.png" alt="Rey Negro"></div>
+      <div class="fixed-blanca fila1 casilla6"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="fixed-negra fila1 casilla7"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="fixed-blanca fila1 casilla8"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+
+      <div class="fixed-blanca fila2 casilla1"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="fixed-negra fila2 casilla2"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="fixed-blanca fila2 casilla3"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="fixed-negra fila2 casilla4"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="fixed-blanca fila2 casilla5"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="fixed-negra fila2 casilla6"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="fixed-blanca fila2 casilla7"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="fixed-negra fila2 casilla8"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+
+      <div class="fixed-negra fila3 casilla1"></div>
+      <div class="fixed-blanca fila3 casilla2"></div>
+      <div class="fixed-negra fila3 casilla3"></div>
+      <div class="fixed-blanca fila3 casilla4"></div>
+      <div class="fixed-negra fila3 casilla5"></div>
+      <div class="fixed-blanca fila3 casilla6"></div>
+      <div class="fixed-negra fila3 casilla7"></div>
+      <div class="fixed-blanca fila3 casilla8"></div>
+
+      <div class="fixed-blanca fila4 casilla1"></div>
+      <div class="fixed-negra fila4 casilla2"></div>
+      <div class="fixed-blanca fila4 casilla3"></div>
+      <div class="fixed-negra fila4 casilla4"></div>
+      <div class="fixed-blanca fila4 casilla5"></div>
+      <div class="fixed-negra fila4 casilla6"></div>
+      <div class="fixed-blanca fila4 casilla7"></div>
+      <div class="fixed-negra fila4 casilla8"></div>
+
+      <div class="fixed-negra fila5 casilla1"></div>
+      <div class="fixed-blanca fila5 casilla2"></div>
+      <div class="fixed-negra fila5 casilla3"></div>
+      <div class="fixed-blanca fila5 casilla4"></div>
+      <div class="fixed-negra fila5 casilla5"></div>
+      <div class="fixed-blanca fila5 casilla6"></div>
+      <div class="fixed-negra fila5 casilla7"></div>
+      <div class="fixed-blanca fila5 casilla8"></div>
+
+      <div class="fixed-blanca fila6 casilla1"></div>
+      <div class="fixed-negra fila6 casilla2"></div>
+      <div class="fixed-blanca fila6 casilla3"></div>
+      <div class="fixed-negra fila6 casilla4"></div>
+      <div class="fixed-blanca fila6 casilla5"></div>
+      <div class="fixed-negra fila6 casilla6"></div>
+      <div class="fixed-blanca fila6 casilla7"></div>
+      <div class="fixed-negra fila6 casilla8"></div>
+
+      <div class="fixed-negra fila7 casilla1"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="fixed-blanca fila7 casilla2"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="fixed-negra fila7 casilla3"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="fixed-blanca fila7 casilla4"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="fixed-negra fila7 casilla5"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="fixed-blanca fila7 casilla6"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="fixed-negra fila7 casilla7"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="fixed-blanca fila7 casilla8"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+
+      <div class="fixed-blanca fila8 casilla1"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+      <div class="fixed-negra fila8 casilla2"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+      <div class="fixed-blanca fila8 casilla3"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+      <div class="fixed-negra fila8 casilla4"><img class="figura" src="./fotos/reina-blanca.png" alt="Reina Blanca"></div>
+      <div class="fixed-blanca fila8 casilla5"><img class="figura" src="./fotos/rey-blanco.png" alt="Rey Blanco"></div>
+      <div class="fixed-negra fila8 casilla6"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+      <div class="fixed-blanca fila8 casilla7"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+      <div class="fixed-negra fila8 casilla8"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+      
+      
+    </div>
+
+    <h2>FLEX</h2>
+    <div class="flex">
+      <div class="flex-fila">
+      <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/reina-negra.png" alt="Reina Negra"></div>
+      <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/rey-negro.png" alt="Rey Negro"></div>
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+    </div>
+    <div class="flex-fila">
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="flex-casilla flex-negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+    </div>
+    <div class="flex">
+        <div class="flex-fila">
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+      </div>
+      <div class="flex-fila">
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra"></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+      </div>
+      <div class="flex">
+        <div class="flex-fila">
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+      </div>
+      <div class="flex-fila">
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra"></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+        <div class="flex-casilla flex-blanca"></div>
+        <div class="flex-casilla flex-negra "></div>
+      </div>
+      <div class="flex">
+          <div class="flex-fila">
+          <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+          <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+          <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+          <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        </div>
+        <div class="flex-fila">
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+          <div class="flex-casilla flex-negra"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+          <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/reina-blanca.png" alt="Reina Blanca"></div>
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/rey-blanco.png" alt="Rey Blanco"></div>
+          <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+          <div class="flex-casilla flex-blanca"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+          <div class="flex-casilla flex-negra "><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+        </div>
+      
+    </div>
+
+    <h2>GRID</h2>
+    <div class="grid">
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/reina-negra.png" alt="Reina Negra"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/rey-negro.png" alt="Rey Negro"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+      <div class="grid-casilla grid-blanca"></div>
+
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+      <div class="grid-casilla grid-blanca"></div>
+
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra "></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+      <div class="grid-casilla grid-blanca"></div>
+      <div class="grid-casilla grid-negra"></div>
+      
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+      <div class="grid-casilla grid-negra "><img class="figura" src="./fotos/reina-blanca.png" alt="Reina Blanca"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/rey-blanco.png" alt="Rey Blanco"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+      <div class="grid-casilla grid-blanca"><img class="figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+      <div class="grid-casilla grid-negra"><img class="figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+    </div>
+
+    <h1>RESPONSIVE</h1>
+    <div class="responsive">
+      <div class="responsive-fila">
+      <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+      <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/reina-negra.png" alt="Reina Negra"></div>
+      <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/rey-negro.png" alt="Rey Negro"></div>
+      <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/alfil-negro.png" alt="Alfil Negro"></div>
+      <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/caballo-negro.png" alt="Caballo Negro"></div>
+      <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/torre-negra.png" alt="Torre Negra"></div>
+    </div>
+    <div class="responsive-fila">
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/peon-negro.png" alt="Peon Negro"></div>
+      </div>
+    <div class="responsive-fila">
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+    </div>
+    <div class="responsive-fila">
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+      </div>
+    <div class="responsive-fila">
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra "></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+    </div>
+    <div class="responsive-fila">
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+        <div class="responsive-casilla responsive-blanca"></div>
+        <div class="responsive-casilla responsive-negra"></div>
+      </div>
+    <div class="responsive-fila">
+        <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        <div class="responsive-casilla responsive-negra "><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/peon-blanco.png" alt="Peon Blanco"></div>
+    </div>
+    <div class="responsive-fila">
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/reina-blanca.png" alt="Reina Blanca"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/rey-blanco.png" alt="Rey Blanco"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/alfil-blanco.png" alt="Alfil Blanco"></div>
+        <div class="responsive-casilla responsive-blanca"><img class="responsive-figura" src="./fotos/caballo-blanco.png" alt="Caballo Blanco"></div>
+        <div class="responsive-casilla responsive-negra"><img class="responsive-figura" src="./fotos/torre-blanca.png" alt="Torre Blanca"></div>
+      </div>
+    
+                                            

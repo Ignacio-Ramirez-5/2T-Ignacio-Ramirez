@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de cajas</title>
+    <style>
+        table{
+            float: left;
+        }
+        .tabla{
+            float: right;
+        }
+        .caja1{
+            width:300px;
+            height: 200px;
+            background-color: antiquewhite;
+            border-style: dotted;
+        }
+        .caja2{
+            width:300px;
+            height: 200px;
+            background-color: gold;
+            border-style: solid;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+            border-left: solid 50px;
+        }
+        .caja3{
+            width:300px;
+            height: 200px;
+            background-color: salmon;
+            border-style: groove;
+            border-width: 25px;
+            border-color: coral;
+            border-radius: 10px;
+        }
+        .caja4{
+            width:300px;
+            height: 200px;
+            background-color: lightgreen;
+            border-style: inset ;
+            border-top-right-radius: 55px;
+            border-bottom-left-radius: 55px;
+            border-color: rgb(0, 92, 0);
+            border-width: 20px;
+        }
+        .caja5{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: antiquewhite;
+            border-style: dotted;
+            border-color: orange;
+        }
+        .caja6{
+            width:300px;
+            height: 200px;
+            background-color: lightblue;
+            border-style: outset;
+            border-color: rgb(0, 0, 122);
+            border-width: 20px;
+        }
+        .caja7{
+            width:300px;
+            height: 200px;
+            background: linear-gradient(to bottom, red, yellow); 
+            border-style: solid;
+            border-color: red;
+            border-bottom: 20px solid red;
+        }
+        .caja8{
+            width:300px;
+            height: 200px;
+            border-style: solid;
+            border-top: 25px solid yellow;
+            border-left: 25px solid blue;
+            border-bottom: 25px solid red;
+            border-right: 25px solid green;
+        }
+        .caja9{
+            width:300px;
+            height: 200px;
+            border-style: double;
+            border-color: blueviolet;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+            border-width: 25px;
+        }
+        .imagen1{
+            border-style: solid;
+            border-top: 100px solid blue;
+            border-right: 100px solid yellow;
+            border-bottom: 100px solid green;
+            border-left: 100px solid red;
+        }
+        .imagen2{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: lightgreen;
+        }
+        .imagen3{
+            border-style: solid;
+            border-top: 100px solid blue;
+            border-right: 100px solid rgba(0, 0, 0, 0);
+            border-bottom: 100px solid green;
+            border-left: 100px solid red;
+        }
+        .imagen4{
+            width: 100px;
+            height: 200px;
+            background-color: lightgreen; 
+            border-radius: 100px 0 0 100px; 
+        }
+        .imagen5{
+            border-style: solid;
+            border-top: 100px solid blue;
+            border-right: 100px solid rgba(0, 0, 0, 0);
+            border-bottom: 100px solid rgba(0, 0, 0, 0);
+            border-left: 100px solid rgba(0, 0, 0, 0);
+        }
+        .imagen6{
+            width: 200px;
+            height: 100px;
+            background-color: lightgreen; 
+            border-radius: 0 0 100px 100px; 
+        }
+    </style>
+</head>
+<body>
+
+    <table class="tabla">
+        <tr>
+            <td>
+                <div class="caja1">Caja 1</div>
+            </td>
+            <td>
+                <div class="caja2">Caja 2</div>
+            </td>
+            <td>
+                <div class="caja3">Caja 3</div>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="caja4">Caja 4</div>
+            </td>
+            <td>
+                <div class="caja5">Caja 5</div>
+            </td>
+            <td>
+                <div class="caja6">Caja 6</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="caja7">Caja 7</div>
+            </td>
+            <td>
+                <div class="caja8">Caja 8</div>
+            </td>
+            <td>
+                <div class="caja9">Caja 9</div>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                <div class="imagen1"></div>
+            </td>
+            <td>
+                <div class="imagen2"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="imagen3"></div>
+            </td>
+            <td>
+                <div class="imagen4"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="imagen5"></div>
+            </td>
+            <td>
+                <div class="imagen6"></div>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
