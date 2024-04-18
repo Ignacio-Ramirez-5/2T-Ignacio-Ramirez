@@ -95,9 +95,65 @@ function inicio(){
 }
 window.onload = inicio;
 function marcar(miEvento){
-    if(miEvento.type == "contextmenu"){
+    if(miEvento.type === "contextmenu"){
         console.log(miEvento);
         miEvento.stopPropagation();
         miEvento.preventDefault();
+        let fila = casilla.dataset.fila;
+        let columna = casilla.dataset.columna;
+
+        if(fila >= 0 && columna >= 0 && fila < buscaminas.numFilas && columna < buscaminas.numColumnas){
+            if(casilla.classList.contains("icon-bandera")){
+                casilla.classList.remove("icon-bandera");
+                casilla.classList.add("icon-duda");
+                buscaminas.numMinasEncontradas--;
+            } else if(casilla.classList.contains("icon-duda")){
+                casilla.classList.remove("icon-duda");
+            } else if(casilla.classList.legth == 0){
+                casilla.classList.add("icon-bandera");
+                buscaminas.numMinasEncontradas++;
+                if(buscaminas.numMinasEncontradas == buscaminas.minasTotales){
+                    buscaminas.resolverTablero(true);
+                }
+            }
+        }
+    }
+}
+function descubrir(miEvento){
+    if(miEvento.type === "click"){
+        let casilla = miEvento.currentTarget;
+        let fila = casilla.dataset.fila;
+        let columna = casilla.dataset.columna;
+    }
+}
+function descubrirCasilla(fila, columna){
+    console.log("destapamos la casilla con fila " + fila + " y columna " + columna);
+    if(fila > -1 && fila < buscaminas.numFilas && columna > -1 && columna < buscaminas.numColumnas){
+        let casilla = document.querySelector("#f" + fila + "_c" + columna);
+        if(!casilla.classList.contains("destapado")){
+            if(!casilla.classList.contains("icon-bandera")){
+                casilla.classList.add("destapado");
+                casilla.innerHTML = buscaminas.aCampoMinas[fila][columna];
+                casilla.classList.add("c" + buscaminas.aCampoMinas[fila][columna]);
+                if(buscaminas.aCampoMinas[fila][columna] !=="B"){
+                    if(buscaminas.aCampoMinas[fila][columna] == 0){
+                        descubrirCasilla(fila -1, columna -1);
+                        descubrirCasilla(fila -1, columna);
+                        descubrirCasilla(fila -1, columna +1);
+                        descubrirCasilla(fila, columna -1);
+                        descubrirCasilla(fila, columna +1);
+                        descubrirCasilla(fila +1, columna -1);
+                        descubrirCasilla(fila +1, columna);
+                        descubrirCasilla(fila +1, columna +1);
+                        casilla.innerHTML = "";
+                    }
+                } else if(buscaminas.aCampoMinas[fila][columna] == "B"){
+                    casilla.innerHTML = "";
+                    casilla.classList.add("icon-bomba");
+                    casilla.classList.add("sinmarcar");
+                    resolverTablero(false);
+                }
+            }
+        }
     }
 }
