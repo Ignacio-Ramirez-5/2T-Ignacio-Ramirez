@@ -100,3 +100,33 @@
     padding: 4px;
     width: calc(var(--numColumnas)*var(--size));
 }
+
+/*DECORACION */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin: 0;
+    flex-direction: column; 
+    background-color: lightgoldenrodyellow;
+}
+#contenedor-titulo {
+    margin-bottom: 20px; 
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin-top: 50px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+#contenedor-tablero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}

@@ -220,6 +220,37 @@ function resolverTablero(isOK){
         alert("¡¡¡Enhorabuena!!!"); 
     } 
 }
+function resolverTablero(isOK){ 
+    let aCasillas = tablero.children; 
+    for (let i = 0 ; i < aCasillas.length; i++){ 
+        //quitamos los listeners de los eventos a las casillas 
+        aCasillas[i].removeEventListener("click", descubrir); 
+        aCasillas[i].removeEventListener("contextmenu", marcar); 
+        let fila = parseInt(aCasillas[i].dataset.fila,10); 
+        let columna = parseInt(aCasillas[i].dataset.columna,10); 
+        if (aCasillas[i].classList.contains("icon-bandera")){ 
+            if (buscaminas.aCampoMinas[fila][columna] == "B"){ 
+                //bandera correcta 
+                aCasillas[i].classList.add("destapado"); 
+                aCasillas[i].classList.remove("icon-bandera"); 
+                aCasillas[i].classList.add("icon-bomba"); 
+            } else { 
+                //bandera erronea 
+                aCasillas[i].classList.add("destapado"); 
+                aCasillas[i].classList.add("banderaErronea"); 
+                isOK = false; 
+            }
+        }else if (!aCasillas[i].classList.contains("destapado")){ if (buscaminas.aCampoMinas[fila][columna] == "B"){ 
+            //destapamos el resto de las bombas 
+                aCasillas[i].classList.add("destapado"); 
+                aCasillas[i].classList.add("icon-bomba"); 
+            } 
+        } 
+    } 
+    if (!isOK){ // Si el jugador no ha ganado (esOK == false), mostrar ventana emergente de "Has perdido"
+        alert("¡Has perdido!"); 
+    } 
+}
                                 
     
 window.onload = inicio;
