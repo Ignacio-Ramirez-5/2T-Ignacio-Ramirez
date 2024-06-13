@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: black;
+}
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+section {
+    padding: 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: blue;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+/* FORMULARIOS */
+
+.contacto{
+    justify-content: center;
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: orange;
+    width: 600px;
+    margin: auto;
+    align-items: center;
+  }
+.escribanos {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.apartado {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+
+}
+
+.apartado:focus {
+    border-color: #4CAF50;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.button {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.eleccion{
+    justify-content: center;
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: yellow;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+}
+
