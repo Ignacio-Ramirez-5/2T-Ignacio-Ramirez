@@ -12,15 +12,6 @@ header {
     text-align: center;
 }
 
-
-
-a{
-    text-decoration: none;
-    color: blue;
-}
-a:hover{
-    color: black;
-}
 nav li {
     display: inline;
     margin: 0 1em;
@@ -31,17 +22,66 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     color: yellow;
+}
+hr{
+    width: 50%;
+}
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section {
-    padding: 2em;
-    border-bottom: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 section h2 {
-    margin-top: 0;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+section {
+    background: #f9f9f9;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+section p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+section p b {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+figure img{
+    height: 500px;
+    width: auto;
+}
+
+ul{
+    list-style-type: none;
 }
 
 footer {
@@ -54,16 +94,28 @@ footer {
     align-items: center;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: black;
 }
-footer a:hover{
+
+footer a:hover {
     color: blue;
 }
-footer img{
+
+footer img {
     width: 30px;
     height: 30px;
 }
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: black;
+}
+
 
  
